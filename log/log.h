@@ -116,7 +116,7 @@ void split_file(ofstream &OsWrite,logConfig log);           //分布文本，模
 			count = 0;
 		}
 	}
-	void record_time(ofstream &OsWrite)
+	void record_time(ofstream &OsWrite) //记录时间
 	{
 		time_t t;
 		time(&t);
