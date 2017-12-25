@@ -94,7 +94,7 @@ void split_file(ofstream &OsWrite,logConfig log);           //分布文本，模
 		return result;
 	}
 
-	void record_string(string log_type, const string& str, ofstream &OsWrite, logConfig log,bool stamped)
+	void record_string(string log_type, const string& str, ofstream &OsWrite, logConfig log,bool stamped) //是否有时间戳 默认有
 	{
 		static int count = 0;
 		if (++count == log.frequence)
