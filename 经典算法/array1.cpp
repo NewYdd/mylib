@@ -10,7 +10,8 @@
 using namespace std;
 
 //tip1 返回删除指定元素后的数组长度
-/*	容器删除 erase var.erase( iterator pos )*/int remoElement(vector<int> &array, int element)
+/*	容器删除 erase var.erase( iterator pos )*/
+int remoElement(vector<int> &array, int element)
 {
 	for (auto it = array.begin(); it < array.end(); ++it)
 	{
