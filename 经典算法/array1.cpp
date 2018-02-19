@@ -120,7 +120,8 @@ void recoverRotatedSortedArray(vector<int> &nums)
 		}
 	}
 }
-int main()
+
+int main()
 {
 	int a[] = {0, -3,1,2,-3,4 };
 	vector<int> result;
